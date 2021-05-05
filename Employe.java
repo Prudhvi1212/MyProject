@@ -79,7 +79,8 @@ public class Employe extends HttpServlet {
             int s = rs.getInt("SAL"); 
             pw.println("<tr><td>" + n + "</td><td>" + nm + "</td><td>" + j + "</td><td>"+c+ "</td><td>" + s + "</td></tr>");
 	    pw.println("<tr><td>" + n + "</td><td>" + nm + "</td><td>" + j + "</td><td>"+c+ "</td><td>" + s + "</td></tr>");
-	    pw.println("<tr><td>" + n + "</td><td>" + nm + "</td><td>" + j + "</td><td>"+c+ "</td><td>" + s + "</td></tr>");   
+	    pw.println("<tr><td>" + n + "</td><td>" + nm + "</td><td>" + j + "</td><td>"+c+ "</td><td>" + s + "</td></tr>");
+		pw.println("<tr><td>" + n + "</td><td>" + nm + "</td><td>" + j + "</td><td>"+c+ "</td><td>" + s + "</td></tr>");   
         }  
         pw.println("</table>");  
         pw.println("</html></body>");  
